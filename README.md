@@ -44,3 +44,17 @@ Abra a pasta do padrão desejado no seu IDE (Eclipse, IntelliJ, VS Code).
 
 Compile e execute o arquivo Main.java dentro da pasta do padrão correspondente.
 
+✅ Boas práticas
+Código organizado em pacotes (Models, Adapters, Format, Reports, etc.)
+
+Implementação seguindo conceitos de orientação a objetos e padrões GoF
+
+Comentários e nomes claros para facilitar entendimento e reaproveitamento
+
+🔗 Contato
+GitHub: JOAOVITORMAIABRAGA
+
+LinkedIn: /in/joão-vítor-maia-braga-a370b820b
+
+💡 Nota: Este repositório é voltado para estudo e prática de padrões de projeto e será atualizado regularmente à medida que novos padrões forem implementados.
+
