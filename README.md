@@ -20,18 +20,13 @@ Este repositório tem como objetivos:
 Cada padrão está em sua própria pasta, contendo o código-fonte e exemplos de execução:
 
 DesignPatternsStudy/
-├── Adapter/
-├── Bridge/
-├── Composite/
-├── [outros padrões]
+├── Builder/
+
 
 markdown
 Copiar código
 
-- **Adapter:** Adapta interfaces incompatíveis para trabalhar juntas.  
-- **Bridge:** Separa abstração da implementação para permitir variações independentes.  
-- **Composite:** Trata objetos individuais e composições de forma uniforme.  
-- *(Adicionar descrição dos outros padrões conforme forem sendo implementados)*  
+- **Builder:** O padrão Builder tem como objetivo separar a construção de um objeto complexo da sua representação, permitindo criar diferentes versões ou variações do mesmo objeto passo a passo.  
 
 ---
 
