@@ -20,11 +20,8 @@ Este repositório tem como objetivos:
 Cada padrão está em sua própria pasta, contendo o código-fonte e exemplos de execução:
 
 DesignPatternsStudy/
+
 ├── Builder/
-
-
-markdown
-Copiar código
 
 - **Builder:** O padrão Builder tem como objetivo separar a construção de um objeto complexo da sua representação, permitindo criar diferentes versões ou variações do mesmo objeto passo a passo.  
 
