@@ -1,52 +1,57 @@
-# Design Patterns Study
+# Design Patterns Study 🧠
 
-Bem-vindo ao meu repositório de estudo de **Design Patterns** em Java!  
-Aqui você encontrará uma coleção de projetos desenvolvidos para praticar e consolidar conceitos de **padrões de projeto (GoF)**, aplicando boas práticas de orientação a objetos.
-
----
-
-## 📚 Objetivo
-
-Este repositório tem como objetivos:
-
-- Praticar e implementar os principais **padrões de projeto** do livro *Design Patterns: Elements of Reusable Object-Oriented Software* (GoF).  
-- Consolidar conceitos de **POO, abstração, encapsulamento, composição e herança**.  
-- Criar exemplos didáticos que podem ser usados como referência em estudos e entrevistas.  
+Este repositório contém implementações de **Padrões de Projeto (Design Patterns)** em **Java** e **Python**.  
+O objetivo é reforçar o aprendizado sobre os principais padrões utilizados no desenvolvimento orientado a objetos.
 
 ---
 
-## 🏗 Estrutura do repositório
+## 📚 Estrutura do Repositório
 
-Cada padrão está em sua própria pasta, contendo o código-fonte e exemplos de execução:
+Cada padrão possui sua própria pasta, com os códigos organizados por linguagem.  
+Exemplo de estrutura:
 
+```
 DesignPatternsStudy/
-
 ├── Builder/
-
-- **Builder:** O padrão Builder tem como objetivo separar a construção de um objeto complexo da sua representação, permitindo criar diferentes versões ou variações do mesmo objeto passo a passo.  
+```
 
 ---
 
-## ⚙️ Como executar os projetos
+## 🚀 Como Executar os Exemplos
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/JOAOVITORMAIABRAGA/DesignPatternsStudy.git
-Abra a pasta do padrão desejado no seu IDE (Eclipse, IntelliJ, VS Code).
+### 🐍 Python
+1. Abra o terminal dentro da pasta do padrão desejado.
+2. Execute o arquivo principal com:
+   ```bash
+   python nome_do_arquivo.py
+   ```
 
-Compile e execute o arquivo Main.java dentro da pasta do padrão correspondente.
+### ☕ Java
+1. Acesse a pasta do padrão desejado.
+2. Compile e execute os arquivos Java:
+   ```bash
+   javac NomeDoArquivo.java
+   java NomeDoArquivo
+   ```
 
-✅ Boas práticas
-Código organizado em pacotes (Models, Adapters, Format, Reports, etc.)
+---
 
-Implementação seguindo conceitos de orientação a objetos e padrões GoF
+## 🧩 Padrões Já Implementados
 
-Comentários e nomes claros para facilitar entendimento e reaproveitamento
+- **Builder Pattern**  
+  Permite criar objetos complexos passo a passo, separando a construção da representação final.  
+  Isso facilita a criação de diferentes representações do mesmo tipo de objeto usando o mesmo processo de construção.
 
-🔗 Contato
-GitHub: JOAOVITORMAIABRAGA
+---
 
-LinkedIn: /in/joão-vítor-maia-braga-a370b820b
+## ✍️ Autor
 
-💡 Nota: Este repositório é voltado para estudo e prática de padrões de projeto e será atualizado regularmente à medida que novos padrões forem implementados.
+**João Vítor Maia Braga**  
+💻 Estudante e desenvolvedor em constante aprendizado sobre arquitetura de software e boas práticas de programação.  
+🔗 [GitHub](https://github.com/JOAOVITORMAIABRAGA)
 
+---
+
+## 🗓️ Objetivo
+
+Este repositório é atualizado constantemente. A meta é estudar e implementar **um novo padrão de projeto por dia**, explorando exemplos práticos em **Java** e **Python**.
