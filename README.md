@@ -13,6 +13,7 @@ Exemplo de estrutura:
 ```
 DesignPatternsStudy/
 ├── Builder/
+├── Composite/
 ```
 
 ---
