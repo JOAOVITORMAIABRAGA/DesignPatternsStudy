@@ -7,13 +7,14 @@ O objetivo é reforçar o aprendizado sobre os principais padrões utilizados no
 
 ## 📚 Estrutura do Repositório
 
-Cada padrão possui sua própria pasta, com os códigos organizados por linguagem.  
-Exemplo de estrutura:
+Cada padrão possui sua própria pasta.
+Em alguns casos, um padrão principal pode conter outros padrões de apoio, representando cenários reais de arquitetura de software, onde múltiplos padrões se complementam. Exemplo de estrutura:
 
 ```
 DesignPatternsStudy/
 ├── Builder/
 ├── Composite/
+├── Decorator/
 ```
 
 ---
@@ -37,14 +38,28 @@ DesignPatternsStudy/
 
 ---
 
-## 🧩 Padrões Já Implementados
+🧩 Padrões Já Implementados
 
-- **Builder Pattern**  
-  Permite criar objetos complexos passo a passo, separando a construção da representação final.  
-  Isso facilita a criação de diferentes representações do mesmo tipo de objeto usando o mesmo processo de construção.
+Builder Pattern
+Permite criar objetos complexos passo a passo, separando a construção da representação final.
+Facilita a criação de diferentes representações do mesmo tipo de objeto usando o mesmo processo de construção.
+
+Composite Pattern
+Permite compor objetos em estruturas de árvore para representar hierarquias parte-todo.
+Isso possibilita que clientes tratem objetos individuais e composições de maneira uniforme.
+
+Decorator Pattern
+Adiciona responsabilidades ou comportamentos adicionais a objetos dinamicamente, sem alterar suas classes originais.
+É uma alternativa flexível à herança para estender funcionalidades.
 
 ---
 
+🧠 Integração entre Padrões
+
+Alguns desafios deste repositório aplicam múltiplos padrões de projeto combinados — por exemplo, um Builder que utiliza Decorators durante o processo de construção, ou um Facade que encapsula a criação de objetos gerenciados por um Composite.
+Essas combinações representam situações práticas do mundo real, onde padrões raramente são usados de forma isolada.
+
+---
 ## ✍️ Autor
 
 **João Vítor Maia Braga**  
